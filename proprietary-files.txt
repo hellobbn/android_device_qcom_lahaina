@@ -103,6 +103,7 @@ vendor/firmware/a660_zap.b00
 vendor/firmware/a660_zap.b01
 vendor/firmware/a660_zap.b02
 vendor/firmware/a660_zap.elf
+vendor/firmware/a660_zap.mdt
 
 # ADSP
 vendor/bin/adsprpcd
