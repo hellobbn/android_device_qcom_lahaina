@@ -254,6 +254,8 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd-odm.rc \
@@ -294,6 +296,10 @@ PRODUCT_PACKAGES += \
 # Neural network
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
+
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2.vendor
 
 # OMX
 PRODUCT_PACKAGES += \
